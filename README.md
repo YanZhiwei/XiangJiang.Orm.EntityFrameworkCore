@@ -100,7 +100,7 @@ public void CURDTest()
 }
 ```
 
-### 3.事务操作
+### 事务操作
 
 ```csharp
 using (var scope = _serviceProvider.CreateScope())
