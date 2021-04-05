@@ -1,6 +1,7 @@
 # XiangJiang.Orm.EntityFrameworkCore
 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![nuget](https://img.shields.io/nuget/v/XiangJiang.Orm.EntityFrameworkCore.svg)](https://www.nuget.org/packages/XiangJiang.Orm.EntityFrameworkCore) [![nuget](https://img.shields.io/nuget/dt/XiangJiang.Orm.EntityFrameworkCore.svg)](https://www.nuget.org/packages/XiangJiang.Orm.EntityFrameworkCore)
+
 包含事务单元，仓储模式的 EntityFrameworkCore 实现
 
 喜欢这个项目的话就 Star、Fork、Follow
