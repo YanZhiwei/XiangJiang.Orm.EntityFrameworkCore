@@ -29,7 +29,7 @@ SDK：.Net 5.0 及以上版本
 PM> Install-Package XiangJiang.Orm.EntityFrameworkCore
 ```
 
-## 构建 DbContext
+### 构建 DbContext
 
 只需要继承实现 EfCoreDbContextBase 即可，即可完成 DbContext 构建
 
@@ -45,7 +45,7 @@ public sealed class SampleDbContext : EfCoreDbContextBase
 }
 ```
 
-## 创建 Entity
+### 创建 Entity
 
 只需要派生于 ModelBase，并设置 Entity 主键类型
 
