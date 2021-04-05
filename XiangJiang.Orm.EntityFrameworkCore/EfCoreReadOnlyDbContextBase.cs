@@ -9,7 +9,7 @@ using XiangJiang.Orm.Abstractions;
 
 namespace XiangJiang.Orm.EntityFrameworkCore
 {
-    public sealed class EfCoreReadOnlyDbContext : DbContext, IReadonlyDbContext
+    public abstract class EfCoreReadOnlyDbContextBase : DbContext, IReadonlyDbContext
     {
         public bool Exist<TPrimaryKey, TModelBase>(Expression<Func<TModelBase, bool>> predicate = null)
             where TModelBase : ModelBase<TPrimaryKey>

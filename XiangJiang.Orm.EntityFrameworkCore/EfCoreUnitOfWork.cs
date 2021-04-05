@@ -5,9 +5,9 @@ namespace XiangJiang.Orm.EntityFrameworkCore
 {
     public sealed class EfCoreUnitOfWork : IUnitOfWork
     {
-        private readonly EfCoreDbContext _dbContext;
+        private readonly EfCoreDbContextBase _dbContext;
 
-        public EfCoreUnitOfWork(EfCoreDbContext dbContext)
+        public EfCoreUnitOfWork(EfCoreDbContextBase dbContext)
         {
             Checker.Begin().NotNull(dbContext, nameof(dbContext));
             _dbContext = dbContext;

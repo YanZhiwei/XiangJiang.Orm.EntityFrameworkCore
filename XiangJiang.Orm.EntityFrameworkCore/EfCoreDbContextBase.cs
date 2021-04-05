@@ -10,7 +10,7 @@ using XiangJiang.Orm.Abstractions;
 
 namespace XiangJiang.Orm.EntityFrameworkCore
 {
-    public sealed class EfCoreDbContext : DbContext, IDbContext
+    public abstract class EfCoreDbContextBase : DbContext, IDbContext
     {
         public bool Delete<TPrimaryKey, TModelBase>(TModelBase entity) where TModelBase : ModelBase<TPrimaryKey>
         {
